@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import ModulePage from './pages/ModulePage'
 import Assessment from './pages/Assessment'
 import Cases from './pages/Cases'
+import CaseDetail from './pages/CaseDetail'
 import Glossary from './pages/Glossary'
 import Settings from './pages/Settings'
 
@@ -34,6 +35,7 @@ function App() {
           <Route path="/module/:moduleId" element={<ModulePage />} />
           <Route path="/assessment/:moduleId" element={<Assessment />} />
           <Route path="/cases" element={<Cases />} />
+          <Route path="/case/:caseId" element={<CaseDetail />} />
           <Route path="/glossary" element={<Glossary />} />
           <Route path="/settings" element={<Settings />} />
         </Routes>
